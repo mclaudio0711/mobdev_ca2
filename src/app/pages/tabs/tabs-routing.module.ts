@@ -32,7 +32,7 @@ const routes: Routes = [
             path: ':name',
             loadChildren: () =>import('../people-details/people-details.module').then(m => m.PeopleDetailsPageModule)
           }
-        ]
+        ] 
       },
       {
         path: 'planets',
